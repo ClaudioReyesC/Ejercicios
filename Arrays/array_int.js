@@ -7,10 +7,18 @@ function numeros_mayor(arr){
     return arr.filter(num => num > 10);
 }
 console.log(numeros_mayor(numeros));
-
-//Sumar todos los elementos numéricos de un arreglo.
 //Crear una copia de un arreglo con .slice().
+let copia = numeros.slice();
+copia.push(99);
+console.log(numeros);
+console.log(copia);
 //Ordenar un arreglo alfabéticamente.
+let frutas = ["manzana","pera","naranja","Frutilla","Sandia"]
+console.log(frutas);
+frutas.sort();
+console.log(frutas);
 //Revertir un arreglo.
+console.log(numeros.reverse(numeros));
 //Usar .map() para multiplicar todos los números por 2.
-
+let nuevo_numero = numeros.map(num => num *2 );
+console.log(nuevo_numero)
