@@ -8,6 +8,4 @@ console.log(frutas)
 frutas.shift(0)
 console.log(frutas)
 //Buscar si existe una fruta específica con .includes().
-frutas.includes("naranja")
-console.log(frutas.includes("naranja")
-//)
+console.log(frutas.includes("naranja"))
