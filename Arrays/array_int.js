@@ -1,5 +1,4 @@
 //Crear una función que devuelva solo los elementos mayores a 10.
-
 let numeros =[10,5,1,20,3,2,25,15,11,7,8,9,4,6,66,100]
 console.log(numeros)
 
